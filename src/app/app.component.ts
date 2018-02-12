@@ -30,7 +30,7 @@ export class AppComponent {
     console.log('recebeu');
     this.fireSong = true;
     
-    let audio = new Audio('../assets/beep-02.mp3');
+    let audio = new Audio('./assets/beep-02.mp3');
     
     setTimeout(() => {
       audio.play();    
